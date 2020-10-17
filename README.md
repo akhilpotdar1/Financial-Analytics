@@ -1,4 +1,4 @@
-[# Financial Analytics](https://portfolio-opt-app.herokuapp.com/)
+
 [https://portfolio-opt-app.herokuapp.com/](#Financial Analytics)
 
 ## Introduction
