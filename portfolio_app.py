@@ -59,17 +59,18 @@ st.write("""
 
 st.sidebar.info(
     'This app helps you analyse which stocks can be worthy of investment for an ameture stock enthusiast.')
-st.sidebar.header('Your Portfolio')
-st.sidebar.write('Please enter the information below')
+st.header('Your Portfolio')
+st.write('Please enter the information below')
 comp_list = comp_list()
 
-port_list = st.sidebar.multiselect('Companies in your portfolio',
-                                   comp_list,
-                                   )
-
+port_list = st.multiselect('Companies in your portfolio',
+                           comp_list,
+                           )
 
 num_portfolios = 50000
 
+
+st.sidebar.write('Please enter the information below')
 num_portfolios = st.sidebar.number_input(
     'Money to Invest', value=num_portfolios)
 
