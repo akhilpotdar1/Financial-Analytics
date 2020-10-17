@@ -1,6 +1,8 @@
 
 # [Financial Analytics](https://portfolio-opt-app.herokuapp.com/)
 
+The deployed web app is live at https://portfolio-opt-app.herokuapp.com/
+
 ## Introduction
 In this project we attempt to perform portfolio price prediction using neural networks (LSTM)
 along with optimization using Monte Carlo and Scipy optimizers. This project aims to be tool for
